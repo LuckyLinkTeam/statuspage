@@ -2,13 +2,18 @@
   padding: 8px;
 
   > ul {
-    background-color: #FFFFFF;
     list-style: none;
     padding-left: 0;
+    
+    .mdl-shadow--2dp {
+      box-shadow: 0 1px 2px #b0b9bf;
+    }
+    
   }
 }
 
 .title {
   margin-bottom: 16px;
   margin-top: 16px;
+  color: #29638F;
 }

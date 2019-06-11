@@ -6,7 +6,6 @@
   padding-right: 8px;
 
   > ul {
-    background-color: #FFFFFF;
     list-style: none;
     padding-left: 0;
   }
@@ -16,8 +15,11 @@
   font-size: 20px;
   margin-bottom: 18px;
   margin-top: 8px;
+  color: #29638F;
 }
 
 .link {
   text-align: center;
+  padding: 5px 0 20px;
+  display: block;
 }

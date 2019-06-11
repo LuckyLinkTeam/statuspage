@@ -2,13 +2,20 @@
   padding: 8px;
 
   > ul {
-    background-color: #FFFFFF;
     padding-left: 0;
+    
+    .mdl-shadow--2dp {
+      box-shadow: 0 1px 2px #b0b9bf;
+    }
+    
   }
 }
 
 .item {
   align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  margin-bottom: 10px;
   display: flex;
   font-size: 16px;
   letter-spacing: .04em;
@@ -25,7 +32,8 @@
 }
 
 .item-subtitle {
-  color: rgba(0,0,0,.54);
+  color: #7A8E92;
+  font-weight: 300;
   display: block;
   font-size: 14px;
   letter-spacing: 0;

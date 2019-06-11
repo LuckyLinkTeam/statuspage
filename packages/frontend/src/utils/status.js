@@ -4,17 +4,17 @@ export const componentStatuses = ['Operational', 'Under Maintenance', 'Degraded 
 export const getComponentColor = (status) => {
   switch (status) {
     case 'Operational':
-      return '#388e3c'
+      return '#58E2A2'
     case 'Under Maintenance':
-      return '#0277bd'
+      return '#1088E2'
     case 'Degraded Performance':
-      return '#fbc02d'
+      return '#7E57C2'
     case 'Partial Outage':
-      return '#ef6c00'
+      return '#FFD600'
     case 'Major Outage':
-      return '#c62828'
+      return '#FF4E69'
     default:
-      return '#9e9e9e'
+      return '#96ACBF'
   }
 }
 
@@ -23,15 +23,15 @@ export const incidentStatuses = ['Investigating', 'Identified', 'Monitoring', 'R
 export const getIncidentColor = (impact) => {
   switch (impact) {
     case 'Investigating':
-      return '#c62828'
+      return '#FF4E69'
     case 'Identified':
-      return '#ef6c00'
+      return '#FFD600'
     case 'Monitoring':
-      return '#0277bd'
+      return '#1088E2'
     case 'Resolved':
-      return '#388e3c'
+      return '#58E2A2'
     default:
-      return '#9e9e9e'
+      return '#96ACBF'
   }
 }
 
@@ -40,11 +40,11 @@ export const metricStatuses = ['Hidden', 'Visible']
 export const getMetricColor = (impact) => {
   switch (impact) {
     case 'Visible':
-      return '#388e3c'
+      return '#58E2A2'
     case 'Hidden':
-      return '#9e9e9e'
+      return '#96ACBF'
     default:
-      return '#9e9e9e'
+      return '#96ACBF'
   }
 }
 
@@ -53,15 +53,15 @@ export const maintenanceStatuses = ['Scheduled', 'In Progress', 'Verifying', 'Co
 export const getMaintenanceColor = (impact) => {
   switch (impact) {
     case 'Scheduled':
-      return '#0277bd'
+      return '#1088E2'
     case 'In Progress':
-      return '#ef6c00'
+      return '#FFD600'
     case 'Verifying':
-      return '#0277bd'
+      return '#7E57C2'
     case 'Completed':
-      return '#388e3c'
+      return '#58E2A2'
     default:
-      return '#9e9e9e'
+      return '#96ACBF'
   }
 }
 
